@@ -1,0 +1,229 @@
+.user-profile-container{
+    padding: 20px;
+    background-color: aliceblue;
+}
+.user-profile{
+    border: solid 1px;
+    margin: auto;
+    max-width: 800px ;
+    margin-top: 50px;
+    border-color: gold;
+    background-color: white;
+    border-radius: 20px 20px;
+    
+}
+.user-profile:hover{
+    box-shadow: 10px 10px 5px gold;
+
+}
+.user-profile-icon{
+   
+    display: flex;
+    justify-content: center;
+}
+
+#user-profile{
+    font-size: 100px;
+    color: gold;
+   
+}
+#user{
+    margin-top: 10px;
+    color: gold;
+    font-weight: bold;
+}
+.favoraute-container{
+    margin-top: 20px;
+    padding: 10px;
+   
+}
+#favoraute-container{
+
+
+max-width: 800px;
+margin: auto;
+padding: 20px;
+height: 150px;
+overflow: auto;
+
+
+
+}
+@media(max-width: 768px){
+#favoraute-container{
+    height: 180px;
+}
+
+
+}
+#favoraute-container:hover{
+box-shadow: 0px 5px 11px  0px gold;
+}
+
+#favoraute-container::-webkit-scrollbar{
+display: none;
+}
+.resturant-card{
+border: solid 1px;
+border-color: gold;
+
+border-radius: 10px 10px;
+margin-top: 10px;
+
+}
+
+#retustrant-content{
+font-weight: bold;
+color: gold;
+margin-top: 10px;
+
+}
+.interested-container{
+
+display: flex;
+justify-content: end;
+font-size: 30px;
+color: red;
+
+}
+#intrested-container{
+margin-top: 10px;
+}
+.favoraute-text{
+font-size: 30px;
+display: flex;
+justify-content: center;
+color: gold;
+}
+@media(max-width: 768px){
+.favoraute-text{
+    font-size: 20px;
+}
+}
+.cart{
+display: flex;
+justify-content: center;
+color: gold;
+font-weight: bold;
+font-size: 30px;
+}
+.dish-card{
+ border-top: solid 1px;
+ border-bottom: solid 1px;
+ border-color: gold;
+ margin-top: 20px;
+
+}
+.dish-card:hover{
+box-shadow: 0px 5px 11px 0px gold;
+}
+.dish-image{
+
+ display: flex;
+ justify-content: center;
+ padding: 10px;
+}
+#dish-image{
+ 
+ width: 100%;
+ height: 80%;
+ max-width: 200px;
+ border-radius: 20px 20px;
+
+}
+.add-item{
+
+z-index: 9;
+position: absolute;
+margin-top: 100px;
+
+
+}
+.add-item .btn{
+width: 100px;
+background-color: gold;
+color:darkgreen;
+font-weight: bold;
+
+
+}
+
+#dish-name{
+font-weight: bold;
+color: gold;
+}
+.price{
+color: gold;
+margin-top: 10px;
+}
+.dish-description{
+margin-top: 10px;
+color: grey;
+}
+.dish-rating{
+margin-top: 10px;
+color: gold;
+}
+.favoraute-item{
+
+max-width: 800px;
+margin: auto;
+padding: 20px;
+margin-top: 20px;
+}
+#favoraute-item{
+background-color:bisque;
+
+}
+.footer{
+
+
+    height: 200px;
+    background-color: #333333;
+    
+    
+    
+    
+    }
+    .footer-container{
+    
+    max-width: 800px;
+    margin: auto;
+    
+    
+    
+    }
+    
+    .footer-item{
+    
+    display: flex;
+    justify-content: space-around;
+    }
+    #footer-item{
+    text-decoration: none;
+    font-size: 40px;
+    color: gold;
+    }
+    @media(max-width: 768px){
+    #footer-item{
+        font-size: 30px;
+    }
+    }
+    #footer-input{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: gold;
+    }
+    .copywrite{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    }
+    
+    
+    
+    
+    
+    

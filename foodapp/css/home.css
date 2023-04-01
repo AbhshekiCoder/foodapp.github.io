@@ -1,0 +1,134 @@
+
+
+
+.carousel img {
+height: 300px;
+object-fit: cover;
+}
+#carouselExampleIndicators{
+
+margin-top: 100px;
+}
+.cursol{
+
+background-size: 80% 80%;
+
+height: 300px;
+background-image: url("img/channel\ photo.jpeg");
+
+animation: slider 10s infinite linear;
+margin-top: 100px;
+
+}
+@keyframes slider{
+30%{ 
+    background-image: url("img/channel\ photo.jpeg");
+}
+70%{
+    background-image: url("img/pexels-waldemar-brandt-2541239.jpg");
+ }
+40%{ background-image: url("img/WhatsApp\ Image\ 2022-01-26\ at\ 11.26.51.jpeg");}
+}
+
+
+.item-container{
+
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+margin-top: 50px;
+}
+
+
+
+.class-item{
+height: 50px;
+width: 50%;
+}
+.items{
+
+display: grid;
+justify-content: center;
+
+}
+
+#items{
+display: flex;
+justify-content: center;
+}
+#img-item{
+
+border-radius: 30px 30px;
+}
+@media(max-width: 768px){
+.items{
+    height: 150px;
+   
+}
+.img-item{
+    height: 90px;
+    border-radius: 30px  30px 30px;
+    border-color: rgb(196, 187, 187);
+   
+}
+
+
+}
+.newitem{
+margin-top: 50px;
+
+display: flex;
+justify-content: center;
+
+
+
+}
+#newitem{
+height: 400px;
+width: 80%;
+border-radius: 30px 30px;
+
+}
+.footer{
+display: grid;
+grid-template-columns: repeat(2, 1fr) ;
+}
+.footer-words{
+
+display: grid;
+justify-content: center;
+width: 300px;
+margin-left: 50%;
+}
+.footer-hearts{
+
+width: 50%;
+margin-right: 50%;
+display: flex;
+align-items: center;
+
+}
+#footer-hearts{
+font-size: 200px;
+color: red;
+}
+
+@media(max-width: 768px){
+.footer-words{
+    width: 100px;
+}
+}
+#words{
+font-size: 50px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: gold;
+}
+#footer{
+background-color: rgb(240, 233, 233);
+
+}
+.items:hover{
+    box-shadow: 20px 20px 10px whitesmoke;
+}
+
+
+

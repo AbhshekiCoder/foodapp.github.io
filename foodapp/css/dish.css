@@ -1,0 +1,163 @@
+.page{
+    background-color:aliceblue;
+ }
+ .container{
+     
+     max-width: 800px;
+     margin: auto;
+     margin-top: 100px;
+     padding: 10px;
+     
+ }
+ .dish-container{
+     
+     border-color: white;
+     border-radius: 20px 20px;
+     background-color: white;
+     margin-top: 20px;
+
+ }
+ .dish-container:hover{
+     box-shadow: 10px 10px 5px gold;
+ }
+ #resturant-name{
+     font-size: 30px;
+     font-weight: bold;
+ }
+ .rating{
+     font-weight: bold;
+ }
+ .dish-card-container{
+    
+     padding: 20px;
+     overflow: auto;
+     height: 200px;
+     
+
+ }
+ @media(max-width: 768px){
+     .dish-card-container{
+         height: 370px;
+
+     }
+ }
+ .dish-card-container::-webkit-scrollbar{
+     display: none;
+
+
+ }
+ .dish-card{
+     border: solid 1px;
+     border-color: gold;
+     border-radius: 10px 10px;
+     margin-top: 10px;
+
+ }
+ .dish-image{
+   
+     display: flex;
+     justify-content: center;
+     padding: 10px;
+ }
+ #dish-image{
+     
+     width: 100%;
+     height: 80%;
+     max-width: 200px;
+     border-radius: 20px 20px;
+
+ }
+.add-item{
+
+  z-index: 9;
+ position: absolute;
+ margin-top: 100px;
+
+
+}
+.add-item .btn{
+width: 100px;
+background-color: gold;
+color:darkgreen;
+font-weight: bold;
+
+
+}
+
+#dish-name{
+ font-weight: bold;
+ color: gold;
+}
+.price{
+ color: gold;
+ margin-top: 10px;
+}
+.dish-description{
+ margin-top: 10px;
+ color: grey;
+}
+.dish-rating{
+ margin-top: 10px;
+ color: gold;
+}
+
+
+.profile{
+ 
+ background-color: chocolate;
+ width: 200px;
+
+ 
+}
+.footer{
+
+
+    height: 200px;
+    background-color: #333333;
+    
+    
+    
+    
+    }
+    .footer-container{
+    
+    max-width: 800px;
+    margin: auto;
+    
+    
+    
+    }
+    
+    .footer-item{
+    
+    display: flex;
+    justify-content: space-around;
+    }
+    #footer-item{
+    text-decoration: none;
+    font-size: 40px;
+    color: gold;
+    }
+    @media(max-width: 768px){
+    #footer-item{
+        font-size: 30px;
+    }
+    }
+    #footer-input{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: gold;
+    }
+    .copywrite{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    }
+    
+    
+    
+    
+    
+    
